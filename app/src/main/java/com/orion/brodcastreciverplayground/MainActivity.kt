@@ -17,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.orion.brodcastreciverplayground.broadcast.AirplaneMode
+import com.orion.brodcastreciverplayground.broadcast.SendBroadcast
 import com.orion.brodcastreciverplayground.ui.theme.BrodcastReciverPlaygroundTheme
 
 class MainActivity : ComponentActivity() {
@@ -31,7 +32,8 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center
                     ) {
-                        AirplaneMode()
+//                        AirplaneMode()
+                          SendBroadcast()
                     }
                 }
             }
